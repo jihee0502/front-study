@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        /* 특정 대상이 더 명확할수록 더 강함*/
+
+        /* 전체 선택자*/
+            *{color: skyblue;}
+
+        /*태그 선택자*/
+            h2 {color:red;}
+
+        /*아이디 선택자 활용방법 앞에다가 #을 붙인다.*/
+        #select-id {color:green;}        
+
+        /*클래스 선택자 활용방법 앞에다가 .을 붙인다 (.을 붙여야 찾을 수 있음)*/
+        .select-class {color: yellow;}
+
+
+        /*아이디는 혼자 ,클래스는 여러개를 지목해서 쓸 수 있다*/
+
+        /*속성 선택자, [] 대괄호호를 써서 href적어주고 그이후에 중괄호에 컬러지정*/
+        [href] {color: orange}  /*[target = "_blank"] (color : orange)*/
+
+        
+
+    
+    </style>
+
+
+</head>
+<body>
+    
+
+    <h1>h1</h1>
+
+    <h2>h2</h2>
+
+    <h3 id="select-id">h3</h3>
+
+    <h4 class="select-class">h4</h4>
+
+    <h5>h5</h5>
+
+    <p>p1</p>
+    <p class="select-class">p2</p>
+    <p>p3</p>
+    <p>p4</p>
+
+    <a href="https://www.naver.com" target="_blank">네이버로이동</a>
+    <a href="https://www.google.com" target="_self"> 구글로이동</a>
+
+
+    
+</body>
+</html>
