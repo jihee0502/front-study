@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&family=Gugi&display=swap" rel="stylesheet">
+
+
+    <style>
+        .font-attr1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+            font-size: 32px;
+            font-variant: small-caps;
+            letter-spacing: 20px;
+            line-height: 2em
+                /*부모 요소 대비 배수만큼 들어남*/
+
+        }
+
+
+        .font-attr2 {
+            font-weight: 700;
+            /*bold 진하게 700*/
+            font-style: oblique;
+        }
+
+        /* italic : 이택릭체 글꼴 oblique 기울이기*/
+
+
+        .font-box {
+            font-size: 30px;
+        }
+
+        .font-box {
+            font-size: 30px;
+        }
+
+
+
+        .p1-inbox {
+            font-size: 1.5em;
+            text-align: center;
+        }
+
+        .p2-inbox {
+            font-size: 3rem;
+        }
+
+        /*html 크기 대비 3배*/
+
+        html {
+            font-size: 10px;
+        }
+
+        /*html 크기를 수정하게 되면 내부의 페이지 전부 바뀜 기본 16px*/
+
+        /*ALT + shift + f 정렬*/
+        .gaegu-light {
+            font-family: "Gaegu", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        .gaegu-regular {
+            font-family: "Gaegu", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .gaegu-bold {
+            font-family: "Gaegu", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+
+            .gaegu-light {
+  font-family: "Gaegu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.gaegu-regular {
+  font-family: "Gaegu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gaegu-bold {
+  font-family: "Gaegu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <P>기본 텍스트</P>
+    <P class="font-attr1"> font attr1</P>
+    <P class="font-attr1"> 폰트 속성1</P>
+
+    <p>햄버거 오늘만 특가!
+        <span style="text-decoration: line-through;">5,000원</span>
+        -> <span style="text-decoration: underline;">3,000</span>
+    </p>
+
+    <P class="font-attr2">Here is Font Atte 2></P>
+
+    <div class="font-box">
+        <P>박스 안에 글자 0</P>
+        <p class="p1-inbox"> 박스 안에 클자 1</p>
+        <p class="p2-inbox"> 박스 안에 클자 2</p>
+    </div>
+
+    <div class="font-box2">
+        <P>박스 안에 글자 0</P>
+        <p class="p1-inbox "> 박스 안에 클자 1</p>
+        <p class="gaegu-bold"> 박스 안에 클자 2</p>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
