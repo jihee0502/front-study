@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            width:100px ;
+            height: 100px;
+        }
+
+        .red {
+            background-color:red;
+            position:fixed;
+
+        }
+
+        .green {
+            background-color: green;
+            position: relative;
+            left:60px;
+            top: 50px;
+            z-index: 10;
+            
+        }
+
+        .yellow {
+            background-color: yellow;
+            position: relative;
+        }
+
+        .black { 
+            
+            width:500px ;
+            height: 300px;
+            border-width: 4px;
+            border: black solid; 
+            position:relative;
+            left: 50px;
+            top: 50px;
+            
+        }
+        
+        .배경{
+            color: black;
+            background-color: lightgrey;
+        }      
+            
+            
+        /*     .red {
+            background-color:red;
+            position:fixed;
+            left: 52px;
+                
+
+        }
+
+        .green {
+            background-color: green;
+            position: fixed;
+            left:50px;
+            top: 200px;
+            z-index: 10;
+            
+        }
+
+        .yellow {
+            background-color: yellow;
+            position: fixed;
+            bottom: 40px;
+        }
+
+        .black { 
+            
+            width:500px ;
+            height: 300px;
+            border-width: 4px;
+            border: black solid; 
+            position:fixed;
+            left: 50px;
+            top: 150px;
+            
+        }
+        
+        .배경{
+            color: black;
+            background-color: lightgrey;
+        }*/
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="배경"><h3>배경색이 lightgray <br>
+        H3 글자</h3>
+    </div>
+
+    <div class="black">
+        <!--속성값 container로 지정할 수 있음-->
+    <div class="red box">A</div>
+    <div class="green box">B</div>
+    <div class="yellow box">C</div>
+</div>
+
+<div class="re">그럼 여기는?</div>
+</body>
+</html>
