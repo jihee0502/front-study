@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; }
+
+            .contaniner{
+                width: 200px;
+                background-color: lightgrey;
+                position: relative;
+            }
+
+            .menu {
+                height: 50px;
+                text-align: center;
+            }
+
+            .submenu{background-color: lightgreen;
+                position: absolute;
+                left: 0px;
+                top:50px;
+                width: 100%;
+                display: none;
+            }
+
+            /*.item{height: 50px;
+            }
+            .menu:hover ~ .submenu {
+                display: block; } */
+
+            .contaniner:hover .submenu {
+                display: block;
+            }
+
+            .item:hover {
+                background-color: lightblue;
+            }
+
+
+    </style>
+</head>
+
+        <div class="contaniner">
+            <div class="menu"> Menu</div>
+            <div class="submenu">
+                <div class="item">sub menu1</div>
+                <div class="item">sub menu2</div>
+                <div class="item">sub menu3</div>
+        </div>
+    </div>
+    <p>다음에 추가 될 내용</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique, in maxime hic quisquam aperiam vero nihil voluptatibus quo repellendus unde asperiores autem excepturi, quas ullam nisi accusantium quaerat vel.</p>
+<body>
+    
+</body>
+</html>
