@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: aquamarine;
+
+            /* transform: translate(50px,150px); */
+            /* transform: translateX(150px); */
+            /* transform 속성 , translate(,) : 함수 */
+            /* transform: scale(1.0,1.0);  */
+            /* scale 상대적인 함수값 x,y부분만 따로 적용가능
+            ex_teansform : scaleX () */
+            /* transform: skew(); */
+
+            transform: rotate(30deg);
+            transform-origin:right bottom ; /*transform-origin 은 변환점 기준*/
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="box" style="transform:translateX(100px);"></div>
+    <div class="box" style="transform:translatey(100px);"></div>
+    <div class="box" style="transform:translate(100px,150px);"></div>
+
+    <div>다음에 추가될 요소</div>
+    
+</body>
+</html>
