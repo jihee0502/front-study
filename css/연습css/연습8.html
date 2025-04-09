@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box:hover{animation-play-state: paused;}
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color:  blue;
+            margin: 20px;
+            
+        }
+        .box1{
+            animation-name: ani1;
+            animation-duration: 2s;
+            animation-fill-mode: both;
+            animation-iteration-count: initial;
+            animation-direction:alternate;
+            position: relative;
+            
+
+        }
+
+
+        .box2{
+            animation-name: ani2;
+            animation-duration: 2s;
+            animation-fill-mode: both;
+            animation-iteration-count: initial;
+            animation-direction:alternate;
+            position: relative;
+        
+        }
+
+        .box3{
+            animation-name: ani3;
+            animation-duration: 2s;
+            animation-fill-mode: both;
+            animation-iteration-count: initial;
+            animation-direction:alternate;
+            position: relative;
+        
+
+        }
+        
+
+        
+        @keyframes ani1 {
+            0% {background-color:blue ;
+            left: 20px;}
+
+            50% {background-color: orange;
+                left: 120px;}
+
+            100% {background-color: pink; left:220px;} 
+        }
+            
+
+        @keyframes ani2 {
+            0% {background-color:blue ;
+            top: 20px;}
+
+            50% {background-color: orange;
+                top: 120px;}
+
+            100% {background-color: pink; top:220px}
+        }
+
+            
+
+        @keyframes ani3 {
+            0% {background-color:blue ;
+            top: 20px;
+            left: 20px;}
+
+            50% {background-color: orange;
+                top: 120px;
+                left: 20px;}
+
+            100% {background-color: pink; top:220px;left: 20px;}
+        }
+            
+    </style>
+
+</head>
+
+<body>
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+
+</body>
+
+</html>
