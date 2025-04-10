@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: grid;
+            width: 700px;
+            height: 500px;
+            border: 2px solid black;
+            margin: 0 auto;
+            margin-top: 50px;
+
+
+        }
+
+        .header {
+            height: 100px;
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+
+        .메인메뉴 {
+            width: 200px;
+            height: 100px;
+            background: red;
+            color: white;
+
+        }
+
+        .마이페이지 {
+            width: 200px;
+            height: 100px;
+            background: red;
+        }
+
+
+
+
+
+        .메인 {
+            height: 300px;
+            display: flex;
+
+        }
+
+        .main {
+            width: 490px;
+            height: 300px;
+            background-color: orange;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+
+        .item {
+            width: 100px;
+            height: 50px;
+            background-color: black;
+            margin: 20px;
+            transition-property:all ;
+            transition-duration: 1s;
+        }
+
+
+        .item:hover {
+            transform: scale(1.5);
+        }
+
+        .aside {
+            width: 210px;
+            height: 300px;
+            background-color: green;
+            
+        }
+
+
+
+
+        .footer {
+            height: 100px;
+            background-color: blue;
+        }
+
+        .ss{
+            color: white;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <div class="메인메뉴 ss">메인메뉴</div>
+            <div class="마이페이지 ss">마이페이지</div>
+
+        </div>
+
+
+        <div class="메인">
+            <div class="main">
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+            </div>
+            <div class="aside ss">aside</div>
+
+
+        </div>
+
+
+
+
+
+        <div class="footer ss">footer</div>
+
+    </div>
+
+
+</body>
+
+</html>
